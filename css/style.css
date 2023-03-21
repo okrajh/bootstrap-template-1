@@ -50,6 +50,7 @@
     background: #fcc302;
     padding-bottom: 30px;
 }
+/*
 #bannerimg{
     margin-top: 40px;
 }
@@ -59,6 +60,7 @@
     font-size: 70px;
 
 }
+ */
 #bannertext>p{
     color: white;
     font-size: 20px;
@@ -96,6 +98,31 @@
 
 }
 
+/* services */
+@media only screen and (max-width:780px){
+    #service-text{
+        padding-top: 20px;
+    }
+}
+#service-btn{
+    background: #fcc302;
+    color: white;
+}
+/* services end */
 
 
-/*  */
+/* counter start */
+#counter-section{
+    /* background: #000; */
+    background: linear-gradient(#fcc302, rgba(255,255,255,0.5)),url(../images/doc.jpg);
+    font-weight: 900;
+    color: black !important;
+    font-size: 1.5rem;
+    font-style: bold;
+
+}
+#counter-section>div>i{
+    font-size: 2rem;
+    color: white;
+}
+/* counter end */
